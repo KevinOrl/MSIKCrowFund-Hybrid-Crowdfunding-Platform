@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+    <color name="BeigeClaro">#EDEDAE</color>
+    <color name="AmarilloClaro">#E7CF8A</color>
+    <color name="negroBoton">#000000</color>
+    <color name="bordeTabla">#ddd</color>
+    <color name="fondoTituloTabla">#f4f4f4</color>
+</resources>

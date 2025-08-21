@@ -1,0 +1,129 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#E7CF8A"
+    android:paddingBottom="30dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="20dp"
+        android:gravity="center_horizontal">
+
+        <TextView
+            android:id="@+id/headerText"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Crear Cuenta"
+            android:textSize="35sp"
+            android:textColor="#000"
+            android:textStyle="bold"
+            android:layout_marginTop="30dp"/>
+
+        <View
+            android:layout_width="61dp"
+            android:layout_height="6dp"
+            android:background="#000"
+            android:layout_marginTop="9dp"
+            android:layout_marginBottom="30dp"
+            android:backgroundTint="@android:color/darker_gray"/>
+
+        <EditText
+            android:id="@+id/inputNombre"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:hint="Nombre de usuario"
+            android:background="#ffff"
+            android:padding="10dp"
+            android:inputType="text"/>
+
+        <EditText
+            android:id="@+id/inputEmail"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:hint="Correo electrónico"
+            android:background="#ffff"
+            android:padding="10dp"
+            android:inputType="textEmailAddress"/>
+
+        <EditText
+            android:id="@+id/inputContrasenna"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:hint="Contraseña"
+            android:background="#ffff"
+            android:padding="10dp"
+            android:inputType="textPassword"/>
+
+        <EditText
+            android:id="@+id/inputCedula"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:hint="Cédula"
+            android:background="#ffff"
+            android:padding="10dp"
+            android:inputType="number"/>
+
+        <EditText
+            android:id="@+id/inputTelefono"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:hint="Teléfono"
+            android:background="#ffff"
+            android:padding="10dp"
+            android:inputType="number"/>
+
+        <EditText
+            android:id="@+id/inputAreaDeTrabajo"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:hint="Área de trabajo"
+            android:background="#ffff"
+            android:padding="10dp"
+            android:inputType="text"/>
+
+        <EditText
+            android:id="@+id/inputDinero"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:hint="Cantidad inicial de dinero"
+            android:background="#ffff"
+            android:padding="10dp"
+            android:inputType="number"/>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginTop="30dp"
+            android:gravity="center">
+
+            <Button
+                android:id="@+id/btnRegresar"
+                android:layout_width="wrap_content"
+                android:layout_height="50dp"
+                android:layout_marginEnd="10dp"
+                android:padding="10dp"
+                android:text="Regresar"
+                android:textColor="@color/white" />
+
+            <Button
+                android:id="@+id/btnIniciarSesion"
+                android:layout_width="wrap_content"
+                android:layout_height="50dp"
+                android:text="Inicia sesión"
+                android:textColor="@color/white"
+                android:padding="10dp"
+                android:layout_marginEnd="10dp"/>
+
+            <Button
+                android:id="@+id/btnRegistrarse"
+                android:layout_width="wrap_content"
+                android:layout_height="50dp"
+                android:text="Registrarse"
+                android:textColor="@color/white"
+                android:padding="10dp"/>
+        </LinearLayout>
+    </LinearLayout>
+</ScrollView>

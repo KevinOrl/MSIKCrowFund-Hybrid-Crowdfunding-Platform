@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    android:background="#E7CF8A"
+    android:padding="10dp">
+
+    <!-- Nombre del proyecto -->
+    <TextView
+        android:id="@+id/project_name"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:text="Project Name"
+        android:textSize="16sp"
+        android:padding="5dp"/>
+
+    <!-- Dato extra (por ejemplo, categoría) -->
+    <TextView
+        android:id="@+id/project_category"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Category"
+        android:textSize="14sp"
+        android:padding="5dp"
+        android:textColor="#808080" />
+
+    <!-- Botón para ver detalles del proyecto -->
+    <Button
+        android:id="@+id/project_details_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Ver" />
+
+</LinearLayout>

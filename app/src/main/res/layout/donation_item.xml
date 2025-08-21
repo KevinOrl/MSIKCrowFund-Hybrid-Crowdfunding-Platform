@@ -1,0 +1,49 @@
+<!-- donation_item.xml -->
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:background="#E7CF8A"
+    android:padding="8dp">
+
+    <TextView
+        android:id="@+id/nombreDonador"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="20dp"
+        android:textStyle="bold"
+        android:text="Nombre del donador" />
+
+    <TextView
+        android:id="@+id/correoDonador"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="20dp"
+        android:textStyle="bold"
+        android:text="Correo del donador" />
+
+    <TextView
+        android:id="@+id/telefonoDonador"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="20dp"
+        android:textStyle="bold"
+        android:text="Teléfono del donador" />
+
+    <TextView
+        android:id="@+id/nombreProyecto"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="20dp"
+        android:textStyle="bold"
+        android:text="Nombre del proyecto" />
+
+    <TextView
+        android:id="@+id/montoDonado"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="20dp"
+        android:textStyle="bold"
+        android:text="Monto donado" />
+</LinearLayout>

@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#E7CF8A"
+    tools:context=".AdminActivity">
+
+    <LinearLayout
+        android:id="@+id/overlay"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:background="#E7CF8A"
+        android:padding="10dp"
+        android:layout_gravity="center"
+        android:elevation="4dp"
+        android:layout_margin="16dp"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        android:clipToOutline="true">
+
+        <!-- Botones de opciones -->
+        <Button
+            android:id="@+id/btnMonitoreoProyectos"
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:background="#D2C5A1"
+            android:textColor="@color/white"
+            android:text="Monitoreo de proyectos"
+            android:textStyle="bold"
+            android:padding="15dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="10dp" />
+
+        <Button
+            android:id="@+id/btnMonitoreoDonaciones"
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:background="#D2C5A1"
+            android:textColor="@color/white"
+            android:text="Monitoreo de donaciones"
+            android:textStyle="bold"
+            android:padding="15dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="10dp" />
+
+        <Button
+            android:id="@+id/btnGestionUsuarios"
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:background="#D2C5A1"
+            android:textColor="@color/white"
+            android:text="Gestión de usuarios"
+            android:textStyle="bold"
+            android:padding="15dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="10dp" />
+
+        <Button
+            android:id="@+id/btnEstadisticasSistema"
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:background="#D2C5A1"
+            android:textColor="@color/white"
+            android:text="Estadísticas del sistema"
+            android:textStyle="bold"
+            android:padding="15dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="10dp" />
+
+        <Button
+            android:id="@+id/btnRegresar"
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:background="#D2C5A1"
+            android:textColor="@color/white"
+            android:text="Regresar"
+            android:textStyle="bold"
+            android:padding="15dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="10dp" />
+
+    </LinearLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

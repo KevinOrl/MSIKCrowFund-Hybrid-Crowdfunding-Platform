@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp"
+    android:gravity="center"
+    android:background="#E7CF8A">
+
+    <!-- Header Section -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:gravity="center"
+        android:layout_marginTop="100dp">
+
+        <TextView
+            android:id="@+id/action_text"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Ingresar"
+            android:textColor="@android:color/black"
+            android:textSize="35sp"
+            android:textStyle="bold"/>
+
+        <View
+            android:layout_width="61dp"
+            android:layout_height="6dp"
+            android:background="@android:color/black"
+            android:layout_marginTop="8dp"
+            android:layout_marginBottom="30dp"
+            android:radius="9dp"/>
+    </LinearLayout>
+
+    <!-- Inputs Section -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_marginTop="40dp"
+        android:gravity="center">
+
+        <EditText
+            android:id="@+id/email_input"
+            android:layout_width="300dp"
+            android:layout_height="60dp"
+            android:background="@android:color/white"
+            android:padding="12dp"
+            android:hint="Correo electrónico"
+            android:textColorHint="#797979"
+            android:inputType="textEmailAddress"/>
+
+        <EditText
+            android:id="@+id/password_input"
+            android:layout_width="300dp"
+            android:layout_height="60dp"
+            android:background="@android:color/white"
+            android:padding="12dp"
+            android:hint="Contraseña"
+            android:textColorHint="#797979"
+            android:inputType="textPassword"
+            android:layout_marginTop="20dp"/>
+    </LinearLayout>
+
+    <!-- Forgot Password Section -->
+    <TextView
+        android:id="@+id/forgot_password"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="¿Olvidaste la contraseña? Presione aquí"
+        android:textColor="#8a8a61"
+        android:textSize="16sp"
+        android:layout_marginTop="20dp"
+        android:paddingLeft="20dp"/>
+
+    <!-- Submit Section -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="40dp"
+        android:gravity="center"
+        android:weightSum="2">
+
+        <Button
+            android:id="@+id/create_account_btn"
+            android:layout_width="140dp"
+            android:layout_height="60dp"
+            android:text="Crear cuenta"
+            android:textColor="@android:color/white"
+            android:textSize="16sp"
+            android:layout_margin="5dp"/>
+
+        <Button
+            android:id="@+id/login_btn"
+            android:layout_width="140dp"
+            android:layout_height="60dp"
+            android:text="Iniciar Sesión"
+            android:textColor="@android:color/white"
+            android:textSize="16sp"
+            android:layout_margin="5dp"/>
+    </LinearLayout>
+</LinearLayout>
