@@ -5,8 +5,10 @@ MSIKCrowFund is a hybrid crowdfunding platform developed as part of an academic 
 Repository Structure
 
 MSIKCrowFund/
-|- android-app/   # Native Android application built with Kotlin
-|- web-app/       # Responsive web interface built with React and Tailwind CSS
+
+android-app: Native Android application built with Kotlin
+
+web-app: Responsive web interface built with React and Tailwind CSS
 
 
 Project Overview
