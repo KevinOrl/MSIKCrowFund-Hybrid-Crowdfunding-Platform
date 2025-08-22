@@ -43,7 +43,7 @@ Android App (android-app/)
 Web App (web-app/)
 
 - Frontend Framework: React
-- Styling: Tailwind CSS
+- Styling: JavaScript HTML CSS
 - Hosting: Firebase Hosting
 - Authentication: Firebase Auth
 - Development Tools: Visual Studio Code
